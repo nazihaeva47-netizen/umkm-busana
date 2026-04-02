@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Produk Celana | Malala</title>
+  <link rel="stylesheet" href="../CSS/celana.css">
+</head>
+<body>
+
+  <h2>Produk Celana Malala</h2>
+<!-- CART ICON -->
+<div class="cart-icon" onclick="keCheckout()">
+    🛒
+    <span id="cart-count">0</span>
+</div>
+
+  <div class="produk-container">
+
+    <!-- CELANA 1 -->
+    <div class="card">
+      <img src="../Gambar/Celana 1 Celana Cargo.jpg">
+      <h3>Celana Cargo Wanita</h3>
+      <p>Rp 70.000</p>
+      <button onclick="tambahKeranjang('Celana Cargo Wanita','70000')">
+        Tambah ke Keranjang
+      </button>
+    </div>
+
+    <!-- CELANA 2 -->
+    <div class="card">
+      <img src="../Gambar/Celana 2 Celana Kulot.jpg">
+      <h3>Celana Kulot</h3>
+      <p>Rp 60.000</p>
+      <button onclick="tambahKeranjang('Celana Kulot','60000')">
+        Tambah ke Keranjang
+      </button>
+    </div>
+
+    <!-- CELANA 3 -->
+    <div class="card">
+      <img src="../Gambar/Celana 3 Celana Jeans.jpg">
+      <h3>Celana Jeans Wanita</h3>
+      <p>Rp 150.000</p>
+      <button onclick="tambahKeranjang('Celana Jeans Wanita','150000')">
+        Tambah ke Keranjang
+      </button>
+    </div>
+
+    <!--CELANA 4-->
+    <div class="card">
+      <img src="../Gambar/Celana 4 Celana Jeans Stretch Cutbray Jeans.jpg">
+      <h3>Celana Jeans Streatch Cutbray</h3>
+      <p>Rp 110.000</p>
+      <button onclick="tambahKeranjang('Celana Jeans Stretch Cutbray Jeans ','110000')">
+        Tambah ke Keranjang
+      </button>
+    </div>
+
+  </div>
+
+  <a href="checkout.html" class="checkout-btn">Ke Checkout</a>
+  <script src="../JAVA SCRIPT/celana.js"></script>
+</body>
+</html>

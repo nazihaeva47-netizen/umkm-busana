@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Produk Baju | Malala</title>
+    <link rel="stylesheet" href="../CSS/baju.css">
+</head>
+
+<body>
+
+<h2>Produk Baju Malala</h2>
+
+<!-- CART ICON -->
+<div class="cart-icon" onclick="keCheckout()">
+    🛒
+    <span id="cart-count">0</span>
+</div>
+
+<div class="produk-container">
+
+    <!-- BAJU 1 -->
+    <div class="card">
+        <img src="../Gambar/Baju 1 cringkel.png">
+        <h3>Baju Cringkel</h3>
+        <p>Rp 120.000</p>
+        <button onclick="tambahKeranjang('Baju Cringkel',120000,'Gambar/Baju 1 cringkel.png')">
+            Tambah ke Keranjang
+        </button>
+    </div>
+
+    <!-- BAJU 2 -->
+    <div class="card">
+        <img src="../Gambar/Baju 2 Blouse Baju Atasan Wanita Simple Polos.jpg">
+        <h3>Blouse Simple Polos</h3>
+        <p>Rp 135.000</p>
+        <button onclick="tambahKeranjang('Blouse Simple Polos',135000,'Gambar/Baju 2 Blouse Baju Atasan Wanita Simple Polos.jpg')">
+            Tambah ke Keranjang
+        </button>
+    </div>
+
+    <!-- BAJU 3 -->
+    <div class="card">
+        <img src="../Gambar/Baju 3 Blouse pudding.jpg">
+        <h3>Blouse Pudding</h3>
+        <p>Rp 140.000</p>
+        <button onclick="tambahKeranjang('Blouse Pudding',140000,'Gambar/Baju 3 Blouse pudding.jpg')">
+            Tambah ke Keranjang
+        </button>
+    </div>
+
+    <!-- BAJU 4 -->
+    <div class="card">
+        <img src="../Gambar/Baju 4 Casual Plain Blouse Pintuck Polos.jpg">
+        <h3>Casual Pintuck</h3>
+        <p>Rp 150.000</p>
+        <button onclick="tambahKeranjang('Casual Pintuck',150000,'Gambar/Baju 4 Casual Plain Blouse Pintuck Polos.jpg')">
+            Tambah ke Keranjang
+        </button>
+    </div>
+
+    <!-- BAJU 5 -->
+    <div class="card">
+        <img src="../Gambar/Baju 6 Blouse Tween Birls Casual.jpg">
+        <h3>Blouse Casual</h3>
+        <p>Rp 130.000</p>
+        <button onclick="tambahKeranjang('Blouse Casual',130000,'Gambar/Baju 6 Blouse Tween Birls Casual.jpg')">
+            Tambah ke Keranjang
+        </button>
+    </div>
+
+</div>
+<a href="checkout.html" class="checkout-btn">Ke Checkout</a>
+<script src="../JAVA SCRIPT/baju.js"></script>
+
+</body>
+</html>

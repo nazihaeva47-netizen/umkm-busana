@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #0193cc3a;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #3a81d141;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Tentang */
+.tentang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.tentang img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.tentang-text {
+  max-width: 500px;
+}
+
+.tentang-text h2 {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.tentang-text p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Visi Misi */
+.visi-misi {
+  display: flex;
+  gap: 30px;
+  padding: 40px 20px;
+  justify-content: center;
+}
+
+.box {
+  background: white;
+  padding: 25px;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.box h3 {
+  color: #8d6e63;
+  margin-bottom: 10px;
+}
+
+.box ul {
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #63858d80;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
